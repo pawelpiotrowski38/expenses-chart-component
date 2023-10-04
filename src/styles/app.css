@@ -1,0 +1,8 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 343px;
+    margin-top: 4.1875rem;
+    background-color: var(--cream);
+}

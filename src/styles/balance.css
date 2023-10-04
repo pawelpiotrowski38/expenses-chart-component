@@ -1,0 +1,32 @@
+.balance {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1.1875rem 1.5rem 1.375rem 1.25rem;
+    border-radius: 0.625rem;
+    background-color: var(--soft-red);
+    color: var(--very-pale-orange);
+}
+
+.balance__info-title {
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+    letter-spacing: -0.6px;
+}
+
+.balance__info-amount {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.1px;
+}
+
+.balance__logo {
+    padding-top: 0.125rem;
+}
+
+.balance__logo-image {
+    display: block;
+    width: 3.75rem;
+}
