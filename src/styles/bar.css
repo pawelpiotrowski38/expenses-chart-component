@@ -8,11 +8,11 @@
 .bar__value {
     position: relative;
     width: 2.0625rem;
-    height: 5rem;
+    height: 0;
     margin-bottom: 0.75rem;
     border-radius: 0.25rem;
     background-color: var(--soft-red);
-    transition: all 0.2s ease-in-out;
+    transition: height 0.75s ease-in-out, opacity 0.25s ease-in-out;
 }
 
 .bar__value:hover {
