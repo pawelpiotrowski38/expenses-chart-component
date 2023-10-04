@@ -5,14 +5,46 @@
 }
 
 .bar__value {
+    position: relative;
     width: 2.0625rem;
     height: 5rem;
     margin-bottom: 0.75rem;
     border-radius: 0.25rem;
     background-color: var(--soft-red);
+    transition: all 0.2s ease-in-out;
+}
+
+.bar__value:hover {
+    background-color: var(--cyan);
+    cursor: pointer;
+}
+
+.bar__value--current-day {
+    background-color: var(--cyan);
 }
 
 .bar__label {
+    position: absolute;
+    top: -2.5rem;
+    left: -0.5rem;
+    width: 3.0625rem;
+    padding: 0.5rem 0;
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+    background-color: var(--dark-brown);
+    color: var(--very-pale-orange);
+    font-size: 0.75rem;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    z-index: 2;
+}
+
+.bar__value:hover .bar__label {
+    opacity: 1;
+}
+
+.bar__title {
     font-size: 0.75rem;
     color: var(--medium-brown);
 }
