@@ -4,7 +4,7 @@ export default function Summary() {
     return (
         <section className="summary">
             <div className="summary__total">
-                <p className="summary__total-title">Total this month</p>
+                <h2 className="summary__total-title">Total this month</h2>
                 <p className="summary__total-amount">$478.33</p>
             </div>
             <div className="summary__difference">
