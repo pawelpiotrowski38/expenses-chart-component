@@ -9,6 +9,7 @@
 .summary__total-title {
     margin-bottom: 0.25rem;
     font-size: 1rem;
+    font-weight: 400;
     color: var(--medium-brown);
     letter-spacing: -0.4px;
 }
