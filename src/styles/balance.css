@@ -30,3 +30,30 @@
     display: block;
     width: 3.75rem;
 }
+
+@media screen and (min-width: 33.75rem) {
+    .balance {
+        margin-bottom: 1.5rem;
+        padding: 1.75rem 2.4375rem 1.5625rem 2rem;
+        border-radius: 1.25rem;
+    }
+    
+    .balance__info-title {
+        margin-bottom: 0.4375rem;
+        font-size: 1.125rem;
+        letter-spacing: -0.05px;
+    }
+    
+    .balance__info-amount {
+        font-size: 2rem;
+        letter-spacing: -0.34px;
+    }
+    
+    .balance__logo {
+        padding-top: 0rem;
+    }
+    
+    .balance__logo-image {
+        width: 4.5rem;
+    }
+}

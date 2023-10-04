@@ -31,4 +31,24 @@
     margin: 1.5rem 0;
     border-radius: 0.5rem;
     background-color: var(--medium-brown);
+    opacity: 0.2;
+}
+
+@media screen and (min-width: 33.75rem) {
+    .chart {
+        padding: 2.0625rem 2.5rem 2.5rem 2.5rem;
+        border-radius: 1.25rem;
+    }
+    
+    .chart__title {
+        margin-bottom: 2.75rem;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: -0.23px;
+    }
+    
+    .chart__divider {
+        margin: 1.9375rem 0;
+        margin-bottom: 2rem;
+    }
 }

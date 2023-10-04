@@ -36,3 +36,28 @@
     font-size: 0.9375rem;
     color: var(--medium-brown);
 }
+
+@media screen and (min-width: 33.75rem) {
+    .summary__total-title {
+        margin-bottom: 0;
+        font-size: 1.1875rem;
+        letter-spacing: -0.35px;
+    }
+    
+    .summary__total-amount {
+        font-size: 3rem;
+        letter-spacing: -0.2px;
+    }
+    
+    .summary__difference {
+        top: 0.6875rem;
+    }
+    
+    .summary__difference-amount {
+        font-size: 1.125rem;
+    }
+    
+    .summary__difference-title {
+        font-size: 1.125rem;
+    }
+}
